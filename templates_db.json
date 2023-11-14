@@ -1,0 +1,1 @@
+{"templates": {"1": {"template_name": "Contact Data", "fields": [{"field_name": "phone", "field_type": "phone"}, {"field_name": "email", "field_type": "email"}]}, "2": {"template_name": "Order Data", "fields": [{"field_name": "text", "field_type": "text"}, {"field_name": "date", "field_type": "date"}]}}}
