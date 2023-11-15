@@ -30,8 +30,6 @@ def find_matching_template(submitted_fields: dict) -> Optional[str]:
 @app.post("/get_form")
 def get_form(f_name1: str, f_name2: str):
     submitted_fields = {"f_name1": f_name1, "f_name2": f_name2}
-    print(f"f_name1: {f_name1}, f_name2: {f_name2}") 
-
     matched_template = find_matching_template(submitted_fields)
     if matched_template:
         return {"form_name": matched_template}
